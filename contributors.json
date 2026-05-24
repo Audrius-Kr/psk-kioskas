@@ -1,0 +1,33 @@
+
+[
+    {
+    "name": "Audrius Kralikas",
+    "email": "kralikas.aud@gmail.com",
+    "github_user": "Audrius-Kr"
+  },
+  {
+    "name": "Dovydas Girskas",
+    "email": "dovydas.girskas@gmail.com",
+    "github_user": "ekfoD"
+  },
+  {
+    "name": "Marius Cesnauskas",
+    "email": "marius.cesnauskas1@gmail.com",
+    "github_user": "MariusCes"
+  },
+  {
+    "name": "Justas Draksas",
+    "email": "justas.draksas@gmail.com",
+    "github_user": "jusatas"
+  },
+  {
+    "name": "Ignas Zuklys",
+    "email": "ignas.zuklys@gmail.com",
+    "github_user": "IgnasZuklys"
+  },
+  {
+    "name": "Linas Bauzys",
+    "email": "linas.bauzys@mif.stud.vu.lt",
+    "github_user": "linasbau"
+  }
+]
