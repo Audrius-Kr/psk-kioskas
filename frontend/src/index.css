@@ -1,0 +1,53 @@
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; font: 15px/1.45 system-ui, -apple-system, sans-serif; color: #222; background: #f6f7fb; }
+a { color: #2c6cf0; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.navbar {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 12px 24px; background: #fff; border-bottom: 1px solid #e3e5ea;
+}
+.navbar .brand { font-weight: 700; font-size: 18px; color: #111; }
+.navbar .links { display: flex; gap: 16px; align-items: center; }
+.navbar .links .muted { color: #888; font-size: 13px; }
+
+.container { max-width: 920px; margin: 24px auto; padding: 0 16px; }
+
+.card {
+  background: #fff; border: 1px solid #e3e5ea; border-radius: 8px;
+  padding: 16px; margin-bottom: 12px;
+}
+.card.narrow { max-width: 380px; margin: 40px auto; }
+
+.event-list { list-style: none; padding: 0; }
+
+h2 { margin-top: 0; }
+h3 { margin: 0 0 8px; }
+
+form label { display: block; margin: 8px 0; font-size: 13px; color: #444; }
+form input, form textarea, form select {
+  display: block; width: 100%; padding: 8px 10px; margin-top: 4px;
+  border: 1px solid #cbd0d8; border-radius: 6px; font: inherit; background: #fff;
+}
+form textarea { min-height: 80px; resize: vertical; }
+button {
+  padding: 8px 14px; background: #2c6cf0; color: #fff; border: none; border-radius: 6px;
+  font: inherit; cursor: pointer; margin-right: 6px;
+}
+button:disabled { opacity: 0.6; cursor: default; }
+button.danger { background: #d9344b; }
+
+table { width: 100%; border-collapse: collapse; margin: 8px 0; }
+th, td { text-align: left; padding: 8px; border-bottom: 1px solid #eee; }
+th { font-size: 12px; color: #666; text-transform: uppercase; letter-spacing: 0.5px; }
+
+.row { display: flex; gap: 8px; align-items: center; margin: 6px 0; }
+.row input { width: auto; flex: 1; }
+
+.error { color: #c0273e; margin: 8px 0; }
+.success { color: #1a7a3a; margin: 8px 0; }
+.muted { color: #888; }
+.strike { text-decoration: line-through; color: #999; margin-left: 6px; }
+.warn {
+  background: #fff7e6; border: 1px solid #ffd48a; padding: 12px; border-radius: 6px; margin-bottom: 12px;
+}
